@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px 0px 0px;
+    height:fit-content;
+}
+.image{
+    width: 40%;
+    margin: auto;
+}
+#pic{
+    height: 400px;
+    width: 340px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#pic:hover{
+    transform: scale(1.05);
+}
+.Popo-butt{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+.Popo-bttn1{
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    width: 40%;
+    margin: auto;
+    height: 7vh;
+
+
+}
+.Popo-bttn1:hover{
+    transform: scale(0.95);
+}
+.Popo-bttn1:active{
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+}
+.Popo-bttn2{
+    color: white;
+    background-color: rgb(255, 115, 0);
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    width: 40%;
+    margin: auto;
+    height: 7vh;
+}
+.Popo-bttn2:hover{
+    transform: scale(0.90);
+}
+.Popo-bttn2:active{
+    background-color: white;
+    color: rgb(255, 115, 0);
+    border: 2px solid rgb(255, 115, 0);
+}
+
+.details{
+    width: 60%;
+    text-align: left;
+    justify-content: left;
+    padding: 40px;
+}
+
+@media (max-width: 600px){
+    .main{
+        width: 80%;
+        margin: auto;
+        display: grid;
+    }
+    .image{
+        width: 100%;
+    }
+    .details{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .Popo-butt{
+        display: grid;
+        width: 100vw;
+        
+    }
+    .Popo-bttn1{
+        width: 90vw;
+
+    }
+    .Popo-bttn2{
+        width: 85vw;
+        margin-top: 2vh;
+    }
+}

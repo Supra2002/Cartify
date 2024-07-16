@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.profile-card p{
+    font-size: 3vh;
+    font-family: 'Poppins', sans-serif;
+}
+.profile-card h1{
+    font-family: "Dancing Script", cursive;
+}
+h2{
+    font-family: 'Poppins', sans-serif;  
+}
+.order-item:hover {
+    color: #3b984b;
+    transition: 0s;
+    cursor: pointer;
+}
+
+
+@media(max-width:600px){
+    .container{
+        display: grid;
+    }
+}

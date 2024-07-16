@@ -1,0 +1,52 @@
+/*Navbar*/
+.navbar{
+    background-color: var(--darkblue);
+    height: 100px;
+    width: 100%;
+}
+.navbar-brand {
+    color: var(--skin);
+    font-family: 'Poppins', sans-serif;   
+}
+.navbar-brand:hover{
+    color: #3b984b;
+    transition: .2s ;
+}
+.nav-link:hover{
+    color: #3b984b;
+    transition: .2s ;
+}
+
+.search {
+    margin-top: -16px;
+    width: 30vw;
+    background-color: #001524;
+}
+.search .navbar-input input{
+    width: 30vw;
+    height: 20px;
+}
+.admin-heading{
+    color:antiquewhite;
+    font-family: 'Poppins', sans-serif;  
+    font-size: 3vh;
+
+}
+.admin-heading:hover{
+    color:#3b984b;
+    cursor: pointer;
+    
+    font-family: 'Poppins', sans-serif;  
+}
+.btn{
+    margin-top: -2px !important;
+    background-color: #3b984b !important;
+    color:#001524
+}
+.dropdown-menu{
+    background-color: #3b984b;
+    border-radius: 12px;
+}
+*:hover{
+    transition: .3s ease;    
+}
